@@ -39,5 +39,7 @@ O sistema possui as seguintes funcionalidades:
 2. Abra a pasta do projeto no computador.
 3. Execute o arquivo `Atividade.py` utilizando o python.
 
-4. ```bash
+Exemplo pelo terminal: 
+
+ ```bash
    python Atividade.py
