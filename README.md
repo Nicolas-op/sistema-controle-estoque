@@ -10,3 +10,14 @@ O projeto tem como objetivo oferecer uma alternativa simples para o controle de 
 ## Tecnologias utilizadas
 -Python
 -SQLite
+
+##funcionalidades
+
+O sistema possi as seguintes funcionalidades:
+1. **Cadastrar produto** - permite cadastrar novos produtos intormando código, nome, categoria, preços e estoque minimo.
+2. **Consultar produtos** - permite visualizar os produtos cadastrados e suas respectivas informações.
+3. **Alterar produto** - permite modificar informações de um produto já cadastrado.
+4. **Excluir produto** - permite excluir um produto cadastrado, respeitando o histórico de movimentações.
+5. **Registrar entrada** - registra a entrada de produtos e atualiza automaticamente a quantidade disponível em estoque.
+6. **Registra saída** registra a saída de produtos, realizando a validação da quantidade dispinível antes de atualizar o estoque.
+7. 
