@@ -38,3 +38,6 @@ O sistema possui as seguintes funcionalidades:
 1. Faça o download ou clone este repositório.
 2. Abra a pasta do projeto no computador.
 3. Execute o arquivo `Atividade.py` utilizando o python.
+
+4. ```bash
+   python Atividade.py
