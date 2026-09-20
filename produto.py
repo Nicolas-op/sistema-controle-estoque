@@ -455,7 +455,7 @@ def registrar_entrada():
 
     while True:
         try:
-            quantidade_entrada = int(input("Digite a quantidade do produto: "))
+            quantidade_entrada = int(input("Digite a quantidade a ser adicionada: "))
 
             if quantidade_entrada  <= 0:
                 print("A quantidade deve ser maior que zero.")
@@ -475,7 +475,7 @@ def registrar_entrada():
         WHERE id = ?
     """, (nova_quantidade, produto_id))
 
-    data = datetime.now().strftime("%m/%d/%Y %H:%M:%S")
+    data = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 
 
     cursor.execute("""
@@ -558,7 +558,7 @@ def registrar_saida():
         WHERE id = ?
     """, (nova_quantidade, produto_id))
 
-    data = datetime.now().strftime("%m/%d/%Y %H:%M:%S")
+    data = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 
     cursor.execute("""
         INSERT INTO movimentacoes (produto_id, tipo,  quantidade, data)
