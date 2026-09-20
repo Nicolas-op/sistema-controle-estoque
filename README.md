@@ -14,7 +14,7 @@ O projeto tem como objetivo oferecer uma alternativa simples para o controle de 
 ## Funcionalidades
 
 O sistema possui as seguintes funcionalidades:
-1. **Cadastrar produto** - permite cadastrar novos produtos informando código, nome, categoria, preços e estoque mínimo.
+1. **Cadastrar produto** - permite cadastrar novos produtos informando código, nome, categoria, quantidade, preços e estoque mínimo.
 2. **Consultar produtos** - permite visualizar os produtos cadastrados e suas respectivas informações.
 3. **Alterar produto** - permite modificar informações de um produto já cadastrado.
 4. **Excluir produto** - permite excluir um produto cadastrado, respeitando o histórico de movimentações.
@@ -41,5 +41,15 @@ O sistema possui as seguintes funcionalidades:
 
 Exemplo pelo terminal: 
 
- ```bash
+  ```bash
    python Atividade.py
+
+```
+## Versão executável
+
+para usuários do windows, o sistema também está disponível em formato executável (`.exe`).
+A versão executável pode ser encontrada na seção **Releases** deste repositório.
+O arquivo `ControleEstoque.exe` pode ser executado diretamente, sem a necessidade de iniciar o código pelo Python.
+Na primeira execução, caso o banco de dados `estoque.db` ainda não exista, ele será criado automaticamente pelo sistema.
+
+
