@@ -13,7 +13,7 @@ O projeto tem como objetivo oferecer uma alternativa simples para o controle de 
 
 ##funcionalidades
 
-O sistema possi as seguintes funcionalidades:
+O sistema possui as seguintes funcionalidades:
 1. **Cadastrar produto** - permite cadastrar novos produtos intormando código, nome, categoria, preços e estoque minimo.
 2. **Consultar produtos** - permite visualizar os produtos cadastrados e suas respectivas informações.
 3. **Alterar produto** - permite modificar informações de um produto já cadastrado.
@@ -25,3 +25,16 @@ O sistema possi as seguintes funcionalidades:
 9. **Consultar valores de estoque** - apresenta o valor dos produtos com base no preço de compra.
 10. **Relatorios** - apresenta informações gerais sobre o estoque, como quantidades de produtos, itens armazenados, produtos com estoque mínimo, valor total do estoque e quantidade de movimentações.
 
+## como executar o projeto
+
+### Pré-requisitos
+
+-Python 3 instalado
+-SQLite, utilizado pelo próprio Python
+
+
+### Execuçao
+
+1. Faça o download ou clone este repositório.
+2. Abra a pasta do projeto no computador.
+3. Execute o arquivo 'Atividade.py' utilizando o python.
